@@ -1,0 +1,106 @@
+body {
+	background-color: #4F4F4F;
+}
+
+span {
+	font-size: 25px;
+}
+
+strong {
+	font-size: 35px;
+}
+
+#header {
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+	margin-left: 15%;
+	background-color: #909090;
+	width: 70%;
+	height: 150px;
+}
+
+#day {
+	margin-left: 10px;
+	width: 30%;
+	height: 140px;
+}
+
+#loupe {
+	padding-right: 10px;
+	float: right;
+	margin-top: 17px;
+}
+
+#right{
+	float: right;
+}
+
+.little {
+	display: block;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+#close {
+	padding-top: 80px;
+}
+
+#left {
+	float: left;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+	margin-left: 17.5%;
+	margin-top: 1%;
+	background-color: #909090;
+	width: 7.5%;
+	height: 550px;
+}
+
+.sideimg {
+	float: top;
+	width: 50%;
+	margin-left: 25%;
+	padding-top: 10px;
+}
+
+#center{
+	box-shadow: 10px 10px 10px black;
+	width: 45%;
+	height: 750px;
+	border-radius: 10px;
+	float: left;
+	background-color: #909090;
+	margin-left: 1.5%;
+	margin-top: 1%;
+}
+
+#centerimg{
+	width:98%;
+	height: 735px;
+	margin-left: 11px;
+	margin-top: 7.5px;
+}
+
+#right2 {
+	box-shadow: 10px 10px 10px black;
+	float: left;
+	border-radius: 10px;
+	margin-left: 1.5%;
+	margin-top: 1%;
+	background-color: #909090;
+	width: 7.5%;
+	height: 550px;
+}
+
+#formulaire {
+	padding-left: 10px;
+	position: absolute;
+	text-align: left;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 10px;
+	margin-top: 27%;
+	margin-left: 15%;
+	background-color: #86FD87;
+	width: 25%;
+	height: 15%;
+}

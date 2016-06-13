@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mendeleiev</title>
+	<style>
+	table{
+		margin: auto;
+		width: 50%;
+		height: 50%;
+	}
+	th{
+		border-collapse: collapse;
+		border: 1px solid black;
+		width: 2%;
+		height: 2%;
+	}
+	td{
+		border: 1px;
+		text-align: center;
+		width: 25px;
+		height: 25px;
+	}
+	.atomique{
+		text-align: right;
+	}
+	.num{
+		text-align: left;
+	}
+	#name{
+		font-size: 1.5em;
+	}
+	#orange{
+		background-color: #F4A460;
+	}
+	#olive{
+		background-color: #808000;
+	}
+	#salmon{
+		background-color: #FA8072;
+	}
+	#mocassin{
+		background-color: #F5DEB3;
+	}
+	#lightgrey{
+		background-color: #D3D3D3;
+	}
+	#blue
+	{
+		background-color: #87CEEB;
+	}
+	#green {
+		background-color: #9ACD32;
+	}
+	#wheat{
+		background-color: #D2B48C;
+	}
+	#lightpink{
+		background-color: #FFB6C1;
+	}
+	</style>
+</head>
+<body>
+<div align=center>
+<img src="http://www.elementschimiques.fr/www/elements/files/discovery/Dmitri-Mendeleiev.200.jpg" alt="Mendeleiev" />
+</div>
+<table>
+<tr>
+	<th id="olive">
+		<div class="atomique"><small>1,00</small></div>
+		<div id="name">H</div>
+		<div class="num"><small>1</small></div>
+	</th>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<th id="salmon">
+		<div class="atomique"><small>4.00</small></div>
+		<div id="name">He</div>
+		<div class="num"><small>1</small></div>
+	</th>
+</tr>
+<tr>
+	<th>
+		<div class="atomique"><small>6.94</small></div>
+		<div id="name">Li</div>
+		<div class="num"><small>3</small></div>
+	</th>
+	<th id="lightpink">
+		<div class="atomique"><small>9.01</small></div>
+		<div id="name">Be</div>
+		<div class="num"><small>4</small></div>
+	</th>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<th id="green">
+		<div class="atomique"><small>10.81</small></div>
+		<div id="name">B</div>
+		<div class="num"><small>5</small></div>
+	</th>
+	<th id="olive">
+		<div class="atomique"><small>12.01</small></div>
+		<div id="name">C</div>
+		<div class="num"><small>6</small></div>
+	</th>
+	<th id="olive">
+		<div class="atomique"><small>14.00</small></div>
+		<div id="name">N</div>
+		<div class="num"><small>7</small></div>
+	</th>
+	<th id="olive">
+		<div class="atomique"><small>15.99</small></div>
+		<div id="name">O</div>
+		<div class="num"><small>8</small></div>
+	</th>
+	<th id="blue">
+		<div class="atomique"><small>18.99</small></div>
+		<div id="name">F</div>
+		<div class="num"><small>9</small></div>
+	</th>
+	<th id="salmon">
+		<div class="atomique"><small>20.17</small></div>
+		<div id="name">Ne</div>
+		<div class="num"><small>10</small></div>
+	</th>
+</tr>
+<tr>
+	<th>
+		<div class="atomique"><small>22.98</small></div>
+		<div id="name">Na</div>
+		<div class="num"><small>11</small></div>
+	</th>
+	<th id="lightpink">
+		<div class="atomique"><small>24.30</small></div>
+		<div id="name">Mg</div>
+		<div class="num"><small>12</small></div>
+	</th>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<th id="lightgrey">
+		<div class="atomique"><small>26.98</small></div>
+		<div id="name">Al</div>
+		<div class="num"><small>13</small></div>
+	</th>
+	<th id="green">
+		<div class="atomique"><small>28.08</small></div>
+		<div id="name">Si</div>
+		<div class="num"><small>14</small></div>
+	</th>
+	<th id="olive">
+		<div class="atomique"><small>30.97</small></div>
+		<div id="name">P</div>
+		<div class="num"><small>15</small></div>
+	</th>
+	<th id="olive">
+		<div class="atomique"><small>32.06</small></div>
+		<div id="name">S</div>
+		<div class="num"><small>16</small></div>
+	</td>
+	<th id="blue">
+		<div class="atomique"><small>35.45</small></div>
+		<div id="name">Cl</div>
+		<div class="num"><small>17</small></div>
+	</th>
+	<th id="salmon">
+		<div class="atomique"><small>39.94</small></div>
+		<div id="name">Ar</div>
+		<div class="num"><small>18</small></div>
+	</th>
+</tr>
+<tr>
+	<th>
+		<div class="atomique"><small>39,09</small></div>
+		<div id="name">K</div>
+		<div class="num"><small>19</small></div>
+	</th>
+	<th id="lightpink">
+		<div class="atomique"><small>40.07</small></div>
+		<div id="name">Ca</div>
+		<div class="num"><small>20</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>44.95</small></div>
+		<div id="name">Sc</div>
+		<div class="num"><small>21</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>47.86</small></div>
+		<div id="name">Ti</div>
+		<div class="num"><small>22</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>50.94</small></div>
+		<div id="name">V</div>
+		<div class="num"><small>23</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>51.99</small></div>
+		<div id="name">Cr</div>
+		<div class="num"><small>24</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>54.93</small></div>
+		<div id="name">Mn</div>
+		<div class="num"><small>25</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>55.84</small></div>
+		<div id="name">Fe</div>
+		<div class="num"><small>26</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>58.93</small></div>
+		<div id="name">Co</div>
+		<div class="num"><small>27</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>58.69</small></div>
+		<div id="name">Ni</div>
+		<div class="num"><small>28</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>63.54</small></div>
+		<div id="name">Cu</div>
+		<div class="num"><small>29</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>65.38</small></div>
+		<div id="name">Zn</div>
+		<div class="num"><small>30</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>69.72</small></div>
+		<div id="name">Ga</div>
+		<div class="num"><small>31</small></div>
+	</th>
+	<th id="green">
+		<div class="atomique"><small>72.64</small></div>
+		<div id="name">Ge</div>
+		<div class="num"><small>32</small></div>
+	</th>
+	<th id="green">
+		<div class="atomique"><small>74.92</small></div>
+		<div id="name">As</div>
+		<div class="num"><small>33</small></div>
+	</th>
+	<th id="olive">
+		<div class="atomique"><small>78.96</small></div>
+		<div id="name">Se</div>
+		<div class="num"><small>34</small></div>
+	</th>
+	<th id="blue">
+		<div class="atomique"><small>79.90</small></div>
+		<div id="name">Br</div>
+		<div class="num"><small>35</small></div>
+	</th>
+	<th id="salmon">
+		<div class="atomique"><small>83.79</small></div>
+		<div id="name">Kr</div>
+		<div class="num"><small>36</small></div>
+	</th>
+</tr>
+<tr>
+	<th>
+		<div class="atomique"><small>85.46</small></div>
+		<div id="name">Rb</div>
+		<div class="num"><small>37</small></div>
+	</th>
+	<th id="lightpink">
+		<div class="atomique"><small>87.62</small></div>
+		<div id="name">Sr</div>
+		<div class="num"><small>38</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>88.90</small></div>
+		<div id="name">Y</div>
+		<div class="num"><small>39</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>91.22</small></div>
+		<div id="name">Zr</div>
+		<div class="num"><small>40</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>92.90</small></div>
+		<div id="name">Nb</div>
+		<div class="num"><small>41</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>95.96</small></div>
+		<div id="name">Mo</div>
+		<div class="num"><small>42</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>98</small></div>
+		<div id="name">Tc</div>
+		<div class="num"><small>43</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>101.07</small></div>
+		<div id="name">Ru</div>
+		<div class="num"><small>44</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>102.90</small></div>
+		<div id="name">Rh</div>
+		<div class="num"><small>45</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>106.42</small></div>
+		<div id="name">Pd</div>
+		<div class="num"><small>45</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>107.86</small></div>
+		<div id="name">Ag</div>
+		<div class="num"><small>47</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>112.44</small></div>
+		<div id="name">Cd</div>
+		<div class="num"><small>48</small></div>
+	</th>
+	<th id="lightgrey"> 
+		<div class="atomique"><small>114.81</small></div>
+		<div id="name">In</div>
+		<div class="num"><small>49</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>118.71</small></div>
+		<div id="name">Sn</div>
+		<div class="num"><small>50</small></div>
+	</th>
+	<th id="green">
+		<div class="atomique"><small>121.76</small></div>
+		<div id="name">Sb</div>
+		<div class="num"><small>51</small></div>
+	</th>
+	<th id="green">
+		<div class="atomique"><small>127.60</small></div>
+		<div id="name">Te</div>
+		<div class="num"><small>52</small></div>
+	</th>
+	<th id="blue">
+		<div class="atomique"><small>126.90</small></div>
+		<div id="name">I</div>
+		<div class="num"><small>53</small></div>
+	</th>
+	<th id="salmon">
+		<div class="atomique"><small>131.29</small></div>
+		<div id="name">Xe</div>
+		<div class="num"><small>54</small></div>
+	</th>
+</tr>
+<tr>
+	<th>
+		<div class="atomique"><small>132.90</small></div>
+		<div id="name">Cs</div>
+		<div class="num"><small>55</small></div>
+	</th>
+	<th id="lightpink">
+		<div class="atomique"><small>137.32</small></div>
+		<div id="name">Ba</div>
+		<div class="num"><small>56</small></div>
+	</th>
+	<th id="mocassin">
+		<small>57-71</small>
+	</th>
+	<th  id="orange">
+		<div class="atomique"><small>178.30</small></div>
+		<div id="name">Hf</div>
+		<div class="num"><small>72</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>180.94</small></div>
+		<div id="name">Ta</div>
+		<div class="num"><small>73</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>183.84</small></div>
+		<div id="name">W</div>
+		<div class="num"><small>74</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>186.20</small></div>
+		<div id="name">Re</div>
+		<div class="num"><small>75</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>190.23</small></div>
+		<div id="name">Os</div>
+		<div class="num"><small>76</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>192.21</small></div>
+		<div id="name">Ir</div>
+		<div class="num"><small>77</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>195.08</small></div>
+		<div id="name">Pt</div>
+		<div class="num"><small>78</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>196.96</small></div>
+		<div id="name">Au</div>
+		<div class="num"><small>79</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>200.59</small></div>
+		<div id="name">Hg</div>
+		<div class="num"><small>80</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>204.38</small></div>
+		<div id="name">Tl</div>
+		<div class="num"><small>81</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>207.2</small></div>
+		<div id="name">Pb</div>
+		<div class="num"><small>82</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>208.98</small></div>
+		<div id="name">Bi</div>
+		<div class="num"><small>83</small></div>
+	</th>
+	<th id="green">
+		<div class="atomique"><small>210</small></div>
+		<div id="name">Po</div>
+		<div class="num"><small>84</small></div>
+	</th>
+	<th id="blue">
+		<div class="atomique"><small>210</small></div>
+		<div id="name">At</div>
+		<div class="num"><small>85</small></div>
+	</th>
+	<th id="salmon">
+		<div class="atomique"><small>220</small></div>
+		<div id="name">Rn</div>
+		<div class="num"><small>86</small></div>
+	</th>
+</tr>
+<tr>
+	<th>
+		<div class="atomique"><small>223</small></div>
+		<div id="name">Fr</div>
+		<div class="num"><small>87</small></div>
+	</th>
+	<th id="lightpink">
+		<div class="atomique"><small>226</small></div>
+		<div id="name">Ra</div>
+		<div class="num"><small>88</small></div>
+	</th>
+	<th id="wheat">
+	<small>89-103</small>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>261</small></div>
+		<div id="name">Rf</div>
+		<div class="num"><small>104</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>262</small></div>
+		<div id="name">Db</div>
+		<div class="num"><small>105</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>266</small></div>
+		<div id="name">Sg</div>
+		<div class="num"><small>106</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>264</small></div>
+		<div id="name">Bh</div>
+		<div class="num"><small>107</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>277</small></div>
+		<div id="name">Hs</div>
+		<div class="num"><small>108</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>268</small></div>
+		<div id="name">Mt</div>
+		<div class="num"><small>109</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>271</small></div>
+		<div id="name">Ds</div>
+		<div class="num"><small>110</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>272</small></div>
+		<div id="name">Rg</div>
+		<div class="num"><small>111</small></div>
+	</th>
+	<th id="orange">
+		<div class="atomique"><small>285</small></div>
+		<div id="name">Cn</div>
+		<div class="num"><small>112</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>284</small></div>
+		<div id="name">Uut</div>
+		<div class="num"><small>113</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>289</small></div>
+		<div id="name">Fl</div>
+		<div class="num"><small>114</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>288</small></div>
+		<div id="name">Uup</div>
+		<div class="num"><small>115</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>292</small></div>
+		<div id="name">Lv</div>
+		<div class="num"><small>116</small></div>
+	</th>
+	<th id="lightgrey">
+		<div class="atomique"><small>292</small></div>
+		<div id="name">Uus</div>
+		<div class="num"><small>117</small></div>
+	</th>
+	<th bgcolor="#FFF0F5">
+		<div class="atomique"><small>294</small></div>
+		<div id="name">Uuo</div>
+		<div class="num"><small>118</small></div>
+	</th>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<th id="mocassin">
+		<div class="atomique"><small>138.90</small></div>
+		<div id="name">La</div>
+		<div class="num"><small>57</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>140.90</small></div>
+		<div id="name">Ce</div>
+		<div class="num"><small>58</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>140.90</small></div>
+		<div id="name">Pr</div>
+		<div class="num"><small>59</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>144.24</small></div>
+		<div id="name">Nd</div>
+		<div class="num"><small>60</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>24.30</small></div>
+		<div id="name">Pm</div>
+		<div class="num"><small>61</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>150.36</small></div>
+		<div id="name">Sm</div>
+		<div class="num"><small>62</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>151.96</small></div>
+		<div id="name">Eu</div>
+		<div class="num"><small>63</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>157.25</small></div>
+		<div id="name">Gd</div>
+		<div class="num"><small>64</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>158.92</small></div>
+		<div id="name">Tb</div>
+		<div class="num"><small>65</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>162.50</small></div>
+		<div id="name">Dy</div>
+		<div class="num"><small>66</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>164.93</small></div>
+		<div id="name">Ho</div>
+		<div class="num"><small>67</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>167.25</small></div>
+		<div id="name">Er</div>
+		<div class="num"><small>68</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>168.93</small></div>
+		<div id="name">Tm</div>
+		<div class="num"><small>69</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>173.05</small></div>
+		<div id="name">Yb</div>
+		<div class="num"><small>70</small></div>
+	</th>
+	<th id="mocassin">
+		<div class="atomique"><small>174.96</small></div>
+		<div id="name">Lu</div>
+		<div class="num"><small>71</small></div>
+	</th>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<th id="wheat">
+		<div class="atomique"><small>227</small></div>
+		<div id="name">Ac</div>
+		<div class="num"><small>89</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>232.03</small></div>
+		<div id="name">Th</div>
+		<div class="num"><small>90</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>231.03</small></div>
+		<div id="name">Pa</div>
+		<div class="num"><small>91</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>238.02</small></div>
+		<div id="name">U</div>
+		<div class="num"><small>92</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>237</small></div>
+		<div id="name">Np</div>
+		<div class="num"><small>93</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>244</small></div>
+		<div id="name">Pu</div>
+		<div class="num"><small>94</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>243</small></div>
+		<div id="name">Am</div>
+		<div class="num"><small>95</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>247</small></div>
+		<div id="name">Cm</div>
+		<div class="num"><small>96</small></div>
+	</th>
+	<th id="wheat"> 
+		<div class="atomique"><small>247</small></div>
+		<div id="name">Bk</div>
+		<div class="num"><small>97</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>251</small></div>
+		<div id="name">Cf</div>
+		<div class="num"><small>98</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>252</small></div>
+		<div id="name">Es</div>
+		<div class="num"><small>99</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>257</small></div>
+		<div id="name">Fm</div>
+		<div class="num"><small>100</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>258</small></div>
+		<div id="name">Md</div>
+		<div class="num"><small>101</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>259</small></div>
+		<div id="name">No</div>
+		<div class="num"><small>102</small></div>
+	</th>
+	<th id="wheat">
+		<div class="atomique"><small>262</small></div>
+		<div id="name">Lr</div>
+		<div class="num"><small>103</small></div>
+	</th>
+</tr>
+</table>
+</body>
+</html>
