@@ -6,39 +6,52 @@
 </head>
 <body>
 	<div id="header">
-		<img id="day" src="resources/day_of_the_42.png">
+		<img id="day" src="resources/day_of_the_42.png" title="Dof42" alt="Dof42">
 		<div id="right">
-			<a href="https://www.disney.com">
-				<img class="little" width="25px" src="resources/reload.png">
+			<a href="http://www.disney.com">
+				<img class="little" width="25px" src="resources/reload.png" title="Recommencer au d&eacute;but" >
 			</a>
-			<a href="https://www.relaischateaux.com/">
-				<img id="close" width="25px" src="resources/close.gif">
+			<a href="http://www.relaischateaux.com/">
+				<img id="close" width="25px" src="resources/close.gif" title=" D&eacute;connecter ">
 			</a>
 		</div>
-		<img id="loupe" src="resources/loupe.png">
+		<img id="loupe" src="resources/loupe.png" title="loupe" alt="loupe">
 	</div>
 	<div id="left">
 		<img class="sideimg" src="resources/arrow.png" title="Avancer" alt="Avancer">
 		<img class="sideimg" src="resources/main.png" title="Prendre" alt="Prendre">
-		<img class="sideimg" src="resources/oeil.png" title="Regarder" alt="Regarder">
+		<img id="eyes" src="resources/oeil.png" title="Regarder" alt="Regarder">
 		<img class="sideimg" src="resources/outil.png" title="Utiliser" alt="Utiliser">
 		<img class="sideimg" src="resources/chat-icon.png" title="Parler" alt="Parler">
 	</div>
 	<div id="center">
-		<img id="centerimg" src="resources/cluster.jpg">
+		<img id="centerimg" src="resources/cluster.jpg" title="cluster" alt="cluster" usemap="#map">
 	</div>
+	<map name="map">
+		<area shape="circle" coords="400, 520, 80" href="http://www.ikea.com">
+		<area shape="circle" coords="900, 520, 90" href="http://www.apple.com">
+	</map>
 	<div id="right2">
-		<img class="sideimg" src="resources/book.png">
-		<img class="sideimg" src="resources/towel.png">
-		<img class="sideimg" src="resources/brick.jpg">
+		<img class="sideimg" src="resources/book.png" title="book" alt="book">
+		<img class="sideimg" src="resources/towel.png" title="towel" alt="towel">
+		<div display=inline-block align=center>
+		<img class="brick" width="35px"  src="resources/brick.jpg" title="brick" alt="brick">
+		<img class="brick" width="35px"  src="resources/brick.jpg" title="brick" alt="brick">
+		<img class="brick" width="35px"  src="resources/brick.jpg" title="brick" alt="brick">
+		<img class="brick" width="35px"  src="resources/brick.jpg" title="brick" alt="brick">
+		<img class="brick" width="35px"  src="resources/brick.jpg" title="brick" alt="brick">
+		<img class="brick" width="35px"  src="resources/brick.jpg" title="brick" alt="brick">
+		<img class="brick" width="35px"  src="resources/brick.jpg" title="brick" alt="brick">
+		<img class="brick" width="35px"  src="resources/brick.jpg" title="brick" alt="brick">
+		</div>
 	</div>
 	<div id="formulaire">
-		<span>Vous <strong>entrez</strong> alors dans une grande piece remplie <br />d'ordinateurs...<br />
-		-Bonjour, vous 	&ecirctes nouveau ici ?
+		<span>Vous <span id="big">entrez</span> alors dans une grande piece remplie <br /><span id="shadowred">d'ordinateurs</span>...<br />
+		-<i>Bonjour, vous 	&ecirctes nouveau ici ?</i>
 		</span>
 		<form>
-		<input align="center" type="text" style="width:80%;" name="name">
-		<input align="right" type="submit" value="Repondre">
+		<input align="center" type="text" style="width:80%; height: 17px; border: 2px solid #B0B0B0; " name="name">
+		<input align="right" type="submit" style="background-color: #EBEBEB; width: 80px; font-size: 13.5px; border-radius: 2px; border: 1px solid grey" value="Repondre">
 		</form>
 	</div>
 </body>

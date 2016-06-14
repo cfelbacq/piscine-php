@@ -1,0 +1,57 @@
+table{
+		margin: auto;
+		width: 50%;
+		height: 50%;
+	}
+	th{
+		border-collapse: collapse;
+		border: 1px solid black;
+		width: 2%;
+		height: 2%;
+	}
+	td{
+		border: 1px;
+		text-align: center;
+		width: 25px;
+		height: 25px;
+	}
+	small {
+		font-size: 0.5vw;
+	}
+	.atomique{
+		text-align: right;
+	}
+	.num{
+		text-align: left;
+	}
+	#name{
+		font-size: 1.5vw;
+	}
+	#orange{
+		background-color: #F4A460;
+	}
+	#olive{
+		background-color: #808000;
+	}
+	#salmon{
+		background-color: #FA8072;
+	}
+	#mocassin{
+		background-color: #F5DEB3;
+	}
+	#lightgrey{
+		background-color: #D3D3D3;
+	}
+	#blue
+	{
+		background-color: #87CEEB;
+	}
+	#green {
+		background-color: #9ACD32;
+	}
+	#wheat{
+		background-color: #D2B48C;
+	}
+	#lightpink{
+		background-color: #FFB6C1;
+	}

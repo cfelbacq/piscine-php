@@ -3,11 +3,21 @@ body {
 }
 
 span {
-	font-size: 25px;
+	font-size: 16px;
+	font-family: "Verdana"
 }
 
-strong {
-	font-size: 35px;
+#big {
+	font-size: 30px;
+	font-family: "Verdana"
+}
+
+table {
+	border: 0px;
+}
+
+.brick{
+	margin: -2px;
 }
 
 #header {
@@ -15,7 +25,7 @@ strong {
 	border-radius: 10px;
 	margin-left: 15%;
 	background-color: #909090;
-	width: 70%;
+	width: 1500px;
 	height: 150px;
 }
 
@@ -35,6 +45,10 @@ strong {
 	float: right;
 }
 
+#shadowred{
+	text-shadow: 10px 10px 10px #ff0000;
+}
+
 .little {
 	display: block;
 	padding-top: 10px;
@@ -50,9 +64,9 @@ strong {
 	box-shadow: 10px 10px 10px black;
 	border-radius: 10px;
 	margin-left: 17.5%;
-	margin-top: 1%;
+	margin-top: 30px;
 	background-color: #909090;
-	width: 7.5%;
+	width: 147px;
 	height: 550px;
 }
 
@@ -60,22 +74,29 @@ strong {
 	float: top;
 	width: 50%;
 	margin-left: 25%;
-	padding-top: 10px;
+	padding-top: 30px;
+}
+
+#eyes {
+	border: 7px solid red;
+	float: top;
+	width: 50%;
+	margin-left: 25%;
 }
 
 #center{
 	box-shadow: 10px 10px 10px black;
-	width: 45%;
+	width: 1040px;
 	height: 750px;
 	border-radius: 10px;
 	float: left;
 	background-color: #909090;
-	margin-left: 1.5%;
 	margin-top: 1%;
+	margin-left: 20px;
 }
 
 #centerimg{
-	width:98%;
+	width:1020px;
 	height: 735px;
 	margin-left: 11px;
 	margin-top: 7.5px;
@@ -85,22 +106,23 @@ strong {
 	box-shadow: 10px 10px 10px black;
 	float: left;
 	border-radius: 10px;
-	margin-left: 1.5%;
-	margin-top: 1%;
+	margin-left: 20px;
+	margin-top: 18px;
 	background-color: #909090;
-	width: 7.5%;
+	width: 155px;
 	height: 550px;
 }
 
 #formulaire {
 	padding-left: 10px;
+	padding-top: 10px;
 	position: absolute;
 	text-align: left;
+	top: 900px;
 	box-shadow: 10px 10px 10px black;
 	border-radius: 10px;
-	margin-top: 27%;
 	margin-left: 15%;
 	background-color: #86FD87;
-	width: 25%;
-	height: 15%;
+	width: 504px;
+	height: 170px;
 }

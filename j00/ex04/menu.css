@@ -1,0 +1,53 @@
+#titre {
+	font-family: Verdana;
+	color: black;
+	text-align: center;
+	font-size: 400%;
+}
+
+#bgtitle {
+	margin-top: 10px; 
+	border-radius: 5px;
+	margin-left: 25%;
+	width: 50%;
+	height: 90px;
+	background-color: lightgrey;
+}
+
+#menu, #menu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu{
+	text-align: center;
+}
+
+#menu li{
+	display: inline-block;
+	font-size: 25px;
+	margin: 100px;
+}
+
+#nenu ul li{
+	display: inherit;
+}
+
+#menu a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	float: left;
+}
+
+#menu ul{
+	position: absolute;
+	left: -999em;
+	text-align: left;
+	z-index: 1000;
+}
+
+#menu li:hover ul{
+	left: auto;
+}
