@@ -12,7 +12,7 @@
 	{
 		$tab = ft_split($argv[1]);
 		$nb = count($tab);
-		for ($i = 0; $i <= $nb ;$i++)
+		for ($i = 0; $i < $nb ;$i++)
 		{
 			echo ($tab[$i]);
 			if ($i + 1 < $nb)

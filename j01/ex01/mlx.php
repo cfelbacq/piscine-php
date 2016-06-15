@@ -1,10 +1,5 @@
 #!/usr/bin/php
 <?php
-$num = 0;
-while ($num < 1000)
-{
-	echo "X";
-	$num++;
-}
-echo "\n";
+	echo str_repeat("X", 1000);
+	echo "\n";
 ?>
